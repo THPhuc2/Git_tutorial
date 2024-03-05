@@ -1,0 +1,19 @@
+1. get project to git(lấy project trên github) : git clone <paste link github>
+2. để upload lên github thì:
+	1. tạo 1 project trên github trước
+	2. git clone <link project new>
+	3. git status (kiểm tra trạng thái của file)
+	4. git add .(thêm all file)
+	5. git commit -m"your_message"(tạo nội dung commit)
+	6. git push origin main
+3. tạo project từ máy local ròi đẩy lên github
+	1. tạo 1 github project trên github trước
+	2. git init  (để có thể tạo file .git trong thư mục giúp quản lý dc tốt hơn)
+	3. git status
+	4. git add .(ngoài git add . là git add <file1> <file2>
+	5. git commit -m "your_message"
+	6. git remote add origin <lấy từ trên project trên github>
+	7. git push origin master
+4. kết nối ssh để mỗi lần đăng nhập thì ko cần phải nhập pass
+ 
+ssh-keygen -t ed25519 -C "PhucTH290303@gmail.com"
